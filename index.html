@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<!--sekcja NAVBAR-->
+<nav class="navbar__wrapper">
+    <div class="navbar">
+        <a href="#Aboutme">About me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Interests">Interests</a>
+    </div>
+</nav>
+
+<!--sekcja slider-->
+<br><br>
+<div class="w3-content w3-display-container" style="max-width:100%;position: relative; max-height:100%; overflow: hidden">
+    <img class="mySlides" src="img/slider2.jpg" alt = "img/placeholder.png">
+    <img class="mySlides" src="img/slider1.jpg" alt = "img/placeholder.png">
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+         style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    </div>
+</div>
+
+
+
+<!--sekcja o mnie-->
+<section id="Aboutme">
+    <br><br><br><br><br><br><br>
+    <h1>About Me</h1>
+    <br><br>
+    <div class="AboutMe">
+        <div class = "aboutme__flexcontainer">
+        <div class="aboutme1">
+            <div class="column1">
+                <img src="img/slack.jpg" alt = "img/placeholder.png">
+            </div>
+            <div class="column2">
+                <p>
+                    I love to develop myself everyday. Getting new experience and knowledge is one of the most important things in my life !
+                    I'm from north Poland. Love programming and sport - both make a great pair. I'm open for any new challenges.
+                    Be sure you get answear from me !</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--skill section-->
+<section id="Skills">
+    <br><br><br><br><br><br><br>
+    <h1>Skills</h1>
+    <br><br>
+<div class="big_icons_wrapper">
+    <div class="big_icons_flex_container">
+        <div class="big_icons_flex_container">
+            <div class="big_icon_item">
+                <img src="img/imgx2.png">
+                <p><b> Html5</b></p>
+            </div>
+            <div class="big_icon_item">
+                <img src="img/imgx3.png">
+                <p><b> Css </b></p>
+            </div>
+        </div>
+        <div class="big_icons_flex_container">
+            <div class="big_icon_item">
+                <img src="img/img4.png">
+                <p><b> Git </b></p>
+            </div>
+            <div class="big_icon_item">
+                <img src="img/imgx1.png">
+                <p><b> Javascript </b></p>
+            </div>
+        </div>
+    </div>
+</div>
+    <br><br>
+</section>
+
+<!--sekcja projekty-->
+<section id="Projects">
+    <br><br><br><br><br><br><br>
+    <h1>Projects</h1>
+    <br><br>
+    <div class = "projects__flex__container">
+        <div class = "projects__flex__item">
+            <h3>Portfolio</h3>
+            <a href="https://github.com/ajaskolski/portfolio">
+            <img src="img/portfolio.png">
+
+            </a>
+        </div>
+    </div>
+    <br><br><br>
+</section>
+
+<!--sekcja zainteresowania-->
+<section id="Interests">
+    <br><br><br><br><br><br><br>
+    <h1>Interests</h1>
+    <br><br>
+    <div class="interests">
+        <div>
+            <p>
+                Main interests in Software Testing and Automated Tests development. Knowledge of ISTQB, principles of testing, levels and types of tests,
+                risk-based testing, specifications, tests for various types of software, testing with various tools, soft aspects of testing,
+                Windows, Linux, Mac OS X operating systems. Knowledge of PHP,Python programming languages, working AGILE (SCRUM) methods and also can plan
+                and develop longterm goals. Experience in working with CRM systems, JIRA/Confluence, Selenium Webdriver, Grid. Codeception PHP Unit. Databases
+                knowledge (MySQL) . English at a very good level. Working with GIT on a daily basis.
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr/>
+<footer>
+    <p>Adrian Jaskolski</p>
+    <p>Contact information:</p>
+    <p><a href="mailto:jjaskolski.adrian@gmail.com"> jjaskolski.adrian@gmail.com</a>.</p>
+</footer>
+
+<br><br><br><br><br>
+<script type="text/javascript" src="src/script.js"></script>
+</body>
+</html>
